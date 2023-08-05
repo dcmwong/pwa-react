@@ -12,7 +12,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     name: "Travel App",
     short_name: "TravelApp",
     description: "An app to test PWAs",
-    "icons": [
+    icons: [
       {
         "src": "/manifest-icon-192.maskable.png",
         "sizes": "192x192",
