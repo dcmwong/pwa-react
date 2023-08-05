@@ -12,6 +12,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     name: "Travel App",
     short_name: "TravelApp",
     description: "An app to test PWAs",
+    theme_color: "#171717",
     icons: [
       {
         "src": "/manifest-icon-192.maskable.png",
@@ -38,7 +39,6 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
         "purpose": "maskable"
       }
     ],
-    theme_color: "#171717",
     background_color: "#e8ebf2",
     display: "standalone",
     scope: "/",
