@@ -6,26 +6,10 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 	registerType: "prompt",
 	includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
 	manifest: {
-		name: "Weather Ups",
-		short_name: "Weathe Ups",
-		description: "An app that can show weather forecast for your city.",
+		name: "Travel App",
+		short_name: "TravelApp",
+		description: "An app to test PWAs", 
 		icons: [
-			{
-				src: "/android-chrome-192x192.png",
-				sizes: "192x192",
-				type: "image/png",
-			},
-			{
-				src: "/android-chrome-512x512.png",
-				sizes: "512x512",
-				type: "image/png",
-			},
-			{
-				src: "/apple-touch-icon.png",
-				sizes: "180x180",
-				type: "image/png",
-				purpose: "apple touch icon",
-			},
 			{
 				src: "/maskable_icon.png",
 				sizes: "225x225",
