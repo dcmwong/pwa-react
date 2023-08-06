@@ -7,9 +7,8 @@ function App() {
   return (
     <>
       <div>
-        This is todays date `${new Date().toDateString()}`
+        This is todays date {new Date().toDateString()}
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
